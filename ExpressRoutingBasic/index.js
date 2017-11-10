@@ -28,6 +28,10 @@ app.delete('/del', function(req, res) {
 app.get('/about', function(req, res) {
     res.send('about page');
 });
+// http://localhost:8080/contactus check in browser
+app.get('/contactus', function(req, res) {
+    res.send('contactus page');
+});
 
 app.listen(port, function() {
     console.log("Server start at port http://localhost:" + port);
