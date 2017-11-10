@@ -1,3 +1,3 @@
 ## Express.js simple example
 
-### npm install 
+command `npm install`
